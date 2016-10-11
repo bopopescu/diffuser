@@ -8,9 +8,9 @@ It is designed to help users to deploy a bunch of virtual server instances insid
 
 ## Motivation for the development of Diffuser
 
-Working with public or private cloud infrastructures (e.g. Amazon EC2, Eucalyptus, OpenNebula or Nimbus) is simple but deploying a cluster of virtual server instances that have a distributed filesystem already up and running is a complex and time-consuming task.
+Working with public or private cloud infrastructures (e.g. [Amazon EC2](https://aws.amazon.com/ec2), [Eucalyptus](https://github.com/eucalyptus/eucalyptus), [OpenNebula](https://github.com/OpenNebula/one) or [Nimbus](https://github.com/nimbusproject/nimbus)) is simple but deploying a cluster of virtual server instances that have a distributed filesystem already up and running is a complex and time-consuming task.
 
-Diffuser is a command-line tool, written in Python, that is designed to automate this task and create an already connected cluster within minutes.
+Diffuser is a command-line tool, written in [Python](https://www.python.org), that is designed to automate this task and create an already connected cluster within minutes.
 
 The following distributed filesystems are implemented inside Diffuser:
 
